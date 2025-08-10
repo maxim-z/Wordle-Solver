@@ -1,0 +1,32 @@
+full = full list
+solution = solution list
+gul = guessable list
+
+glf = general letter frequency:
+	only has one number attached to each letter
+	this counts the number of letters across the entire word
+	counts are dividided by: length of word * number of words
+
+	ex: apple -> counts 1 'a',	 2 'p',	 1 'l',	 1 'e'
+	then adds them to the frequency array [a+=1 ... e+=1, ...l+=1, ...p+=2, ...]
+
+slf = spot letter frequency:
+	has 5 numbers attached to each letter because it counts per spot
+	counts are dividided by: length of word * number of words
+
+	ex: apple -> counts 1 'a',	 2 'p',	 1 'l',	 1 'e'
+	it adds 'a' to freq arr spot 1 [a+=1, ...]
+	it adds 'p' to freq arr spot 2 [..., p+=1, ...]
+	it adds 'p' to freq arr spot 3 [..., p+=1, ...]
+	it adds 'l' to freq arr spot 4 [..., l+=1, ...]
+	it adds 'e' to freq arr spot 5 [..., e+=1, ...]
+
+wlf = word letter frequency:
+	has 1 number attached to each letter
+	counts are divided by: number of words
+
+	ex: apple -> counts 1 'a',	 1 'p',	 1 'l',	 1 'e'
+	then adds them to the frequency array [a+=1 ... e+=1, ...l+=1, ...p+=1, ...]
+
+	it only counts unique letters in a word
+	

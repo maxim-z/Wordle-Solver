@@ -1,0 +1,55 @@
+Word lists:
+
+1. Still need to find all the guessable words list. Or make our own.
+Done
+
+2. The solution list is finalized as I got it from the source code
+of New York Times.
+Done
+
+Starting Word:
+
+1. From all of the research we have done try out all the words
+and see which ones work best.
+- raise, clout, nymph from Seedling
+- rance from OptimalWordSolutions
+- arose from StatisticalWord
+- raise from Auto-solver
+- bowne, slaty, prick, faugh, meved from HumanStrategy
+- soare, roate from HumanStrategy
+- slate, sauce, slice, shale, saute, share, sooty from Solver
+- reais from Solver
+- tares from WinningWordleWisely
+
+
+2. Based on the frequencies we have got determine our own best
+starting words and see if they differ.
+
+3. Come up with something a little more complex than just the
+frequencies? But what?
+
+4. Try random starting words?
+
+Scores:
+
+1. Hypothetical Scores
+2. Based on frequency
+3. 
+
+Strategies:
+
+1. Go deep by eliminating as many possible words off the start?
+2. Breadth by eliminating the most amount of letters and guessing from there?
+3. Mix of the first two gather information then go deep.
+
+Algorithm:
+
+1. Reinforcement learning
+2. MRD or GEP from WinningWordleWisely
+3. 
+
+Potential Questions to answer:
+
+1. Is using just the solution list for guesses better than using the
+entire guessable word list?
+2. 
